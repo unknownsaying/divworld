@@ -22,9 +22,9 @@ const ONEsquare = ONE * square
 const squareONE = square % ONE
 const oppoPyramid = antipyramid / pyramid
 const dimPyramid = square - antisquare
-function SUM
+Sub SUM
      [DET/tri+tri/DET == DETtri+triDET]
      [DETtri+ONEsquare == squareONE+triDET]
      [Pyramid == oppoPyramid+dimPyramid]
     return SUM
-End Function
+End Sub
