@@ -61,7 +61,7 @@ function Z3() {
 }
 }
 
-interface X4Y4Z4T4{}{
+class X4Y4Z4T4{}{
 function X4() {
     for (let I = 0; I <= 2; I++)
         for(let J = 0; J <= 2; J++)
@@ -82,7 +82,7 @@ function Z4(){
 }
 }
 
-interface X5Y5Z5T5{}{
+class X5Y5Z5T5{}{
 function X5(){
     for (let I = 0; I <= 4; ++I)
        for (let J = 0; J <= 4; ++J)
