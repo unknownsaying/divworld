@@ -1,14 +1,6 @@
 #include "DetPyramid.c"
 #include "StraightPyramid.c"
 #include "bit.c"
-#define a |=\
-#define b |=/
-#define c |=
-#define d =|
-#define e |\/|
-#define f |/\|
-#define g |\|
-#define h |/|
 int t1t2(){
     return "a * sin(wx + t1) + b * cos(wx - t2)"; 
     return "c * cos(wx + t1) + d * sin(wx - t2)";
