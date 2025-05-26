@@ -3,7 +3,7 @@
 #include "bit.c"
 #define a |=\
 #define b |=/
-#define c |
+#define c |=
 #define d =|
 #define e |\/|
 #define f |/\|
