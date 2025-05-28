@@ -17,6 +17,14 @@ function Z1(){
             for(let q = 0; q >= -3; q--)
         continue
 }
+void function T1(){
+    void ('X1*Y1')
+     {Z1}
+    void ('X1*Z1')
+     {Y1}
+    void ('Y1*Z1')
+     {X1}
+}
 }
 
 class X2Y2Z2T2{}{
@@ -37,6 +45,14 @@ function Z2(){
         for (let p = 0; p >= -6; p--)
             for (let q = 0; q >= -6; q--)
         continue
+}
+void function T2(){
+    void ('X2*Y2')
+     {Z2}
+    void ('X2*Y2')
+     {Y2}
+    void ('Y2*Z2')
+     {X2}
 }
 }
 
@@ -59,6 +75,14 @@ function Z3() {
             for (let q = 0; q >= -9; q--)
         continue
 }
+void function T3(){
+    void ('X3*Y3')
+     {Z3}
+    void ('X3*Z3')
+     {Y3}
+    void ('Y3*Z3')
+     {X3}
+}
 }
 
 class X4Y4Z4T4{}{
@@ -79,6 +103,14 @@ function Z4(){
         for (let P = 0; P >= -2; --P)
             for (let Q = 0; Q >= -2; --Q)
         break
+}
+void function T1(){
+    void ('X4*Y4')
+     {Z4}
+    void ('X4*Z4')
+     {Y4}
+    void ('Y4*Z4')
+     {X4}
 }
 }
 
@@ -101,6 +133,15 @@ function Z5(){
           for (let Q = 0; Q >= -4; Q--)
         break
 }
+
+void function T5(){
+    void ('X5*Y5')
+     {Z5}
+    void ('X5*Z5')
+     {Y5}
+    void ('Y5*Z5')
+     {X5}
+}
 }
 
 class X6Y6Z6T6{}{
@@ -122,9 +163,17 @@ function Z6(){
             for(let Q  = 0; Q >= -8; --Q)
         break
 }
+void function T6(){
+    void ('X6*Y6')
+     {Z6}
+    void ('X6*Z6')
+     {Y6}
+    void ('Y6*Z6')
+     {X6}
+}
 }
 
-export function Sphere(){
+function Sphere(){
     'X1 ^ 2' + 'Y1 ^ 2' + 'Z1 ^ 2' ; NaN
     'X2 ^ 2' + 'Y2 ^ 2' + 'Z2 ^ 2' ; NaN
     'X3 ^ 2' + 'Y3 ^ 2' + 'Z3 ^ 2' ; NaN
