@@ -14,6 +14,6 @@ void Pyrimidine(){
     "A" "C" "G" "U";
 }
 void HKey(){
-    ["A=T";
-    ["C≡G";
+    "A=T";
+    "C≡G";
 }
