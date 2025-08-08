@@ -1,6 +1,6 @@
 const det9 =
-[1, 1]
 [0, 1]
+[1, 1]
 const det10 =
 [1, 0]
 [1, 1]
@@ -9,5 +9,5 @@ const det11 =
 [1, 0]
 const det12 =
 [1, 1]
-[1, 1]
-console.WriteLine(det9,det10,det11,det12)
+[0, 1]
+Console.WriteLine(det9,det10,det11,det12)
